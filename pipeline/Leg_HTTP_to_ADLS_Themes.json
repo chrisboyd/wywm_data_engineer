@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_rhm",
+				"name": "Copy Themes from HTTP to ADLS",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
