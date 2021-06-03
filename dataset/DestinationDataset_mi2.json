@@ -1,0 +1,23 @@
+{
+	"name": "DestinationDataset_mi2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ADLS_rebrickable",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "colors.csv.gz",
+				"fileSystem": "lego"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
